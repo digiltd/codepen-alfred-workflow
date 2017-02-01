@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -25,6 +27,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>in new browser window</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>7C321AC5-3A29-42BE-994A-F23820B0C82E</key>
@@ -36,6 +40,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>9CF706AF-1051-4696-9B13-9198C7B2BABD</key>
@@ -47,6 +53,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>D546B959-2173-4140-B9B4-293B8FE30BDA</key>
@@ -58,6 +66,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -74,10 +84,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
-				<string>http://codepen.io/</string>
+				<string>https://codepen.io/</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -86,7 +98,7 @@
 			<key>uid</key>
 			<string>34E1EDF0-0727-479C-9553-4D58C01E5F95</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -107,15 +119,17 @@
 			<key>uid</key>
 			<string>7C321AC5-3A29-42BE-994A-F23820B0C82E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
-				<string>http://codepen.io/pen/</string>
+				<string>https://codepen.io/pen/</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -124,7 +138,7 @@
 			<key>uid</key>
 			<string>E7D86DB7-75AF-43B5-A7EA-2CC44B9DD724</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -145,7 +159,7 @@
 			<key>uid</key>
 			<string>1D519241-DC16-4D0D-9DF6-74A710125184</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -157,7 +171,7 @@
 				<key>script</key>
 				<string>tell application "Google Chrome"
     tell (make new window)
-        set URL of active tab to "http://codepen.io/pen/"
+        set URL of active tab to "https://codepen.io/pen/"
     end tell
     activate
 end tell
@@ -171,7 +185,11 @@ end tell
 
 # tell application "Firefox"# 	activate# 	tell application "System Events" to keystroke "n" using command down# 	open location "http://codepen.io/pen/"# end tell# Alternativly for Firefox you can use system events to "type" the url
 # Though it seems too slow to be useful, I would rather have the spare tab
-# from using the above Firefox solution.  # tell application "Firefox"#	activate#	tell application "System Events"#		keystroke "n" using command down#		delay 1#		keystroke "codepen.io/pen/"#		delay 1#		keystroke return#	end tell# end tell</string>
+# from using the above Firefox solution.  # tell application "Firefox"#	activate#	tell application "System Events"#		keystroke "n" using command down#		delay 1#		keystroke "codepen.io/pen/"#		delay 1#		keystroke return#	end tell# end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -180,7 +198,7 @@ end tell
 			<key>uid</key>
 			<string>D67FBEFB-34AF-4EA6-BE18-A60CF83F796A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -189,6 +207,8 @@ end tell
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>cpp</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Private CodePens</string>
 				<key>withspace</key>
@@ -199,15 +219,17 @@ end tell
 			<key>uid</key>
 			<string>9CF706AF-1051-4696-9B13-9198C7B2BABD</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
-				<string>http://codepen.io/digisam/private/</string>
+				<string>https://codepen.io/digisam/private/</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -216,7 +238,7 @@ end tell
 			<key>uid</key>
 			<string>094C3E53-630C-4759-8650-1E0E272C2FD1</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -225,6 +247,8 @@ end tell
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>cps</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Search CodePens</string>
 				<key>withspace</key>
@@ -235,15 +259,17 @@ end tell
 			<key>uid</key>
 			<string>D546B959-2173-4140-B9B4-293B8FE30BDA</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<true/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string>+</string>
 				<key>url</key>
-				<string>http://codepen.io/search?q={query}&amp;limit=all&amp;order=popularity&amp;depth=everything&amp;show_forks=false</string>
+				<string>https://codepen.io/search?q={query}&amp;limit=all&amp;order=popularity&amp;depth=everything&amp;show_forks=false</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -252,7 +278,7 @@ end tell
 			<key>uid</key>
 			<string>B14CE0C1-7C70-4F85-A6DF-6853DAE0234B</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -261,51 +287,69 @@ end tell
 	<dict>
 		<key>094C3E53-630C-4759-8650-1E0E272C2FD1</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>360</real>
 		</dict>
 		<key>1D519241-DC16-4D0D-9DF6-74A710125184</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
 		<key>34E1EDF0-0727-479C-9553-4D58C01E5F95</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>7C321AC5-3A29-42BE-994A-F23820B0C82E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>60</real>
 		</dict>
 		<key>9CF706AF-1051-4696-9B13-9198C7B2BABD</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>300</real>
 		</dict>
 		<key>B14CE0C1-7C70-4F85-A6DF-6853DAE0234B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>470</real>
 		</dict>
 		<key>D546B959-2173-4140-B9B4-293B8FE30BDA</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>420</real>
 		</dict>
 		<key>D67FBEFB-34AF-4EA6-BE18-A60CF83F796A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>240</real>
 		</dict>
 		<key>E7D86DB7-75AF-43B5-A7EA-2CC44B9DD724</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>http://www.digi.ltd.uk</string>
+	<string>http://digi.ltd.uk</string>
 </dict>
 </plist>
