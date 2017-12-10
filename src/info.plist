@@ -8,34 +8,11 @@
 	<string>Digi</string>
 	<key>connections</key>
 	<dict>
-		<key>1D519241-DC16-4D0D-9DF6-74A710125184</key>
+		<key>096713FF-C0E4-4039-A1E3-48031F4ACEEA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E7D86DB7-75AF-43B5-A7EA-2CC44B9DD724</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>D67FBEFB-34AF-4EA6-BE18-A60CF83F796A</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>in new browser window</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>7C321AC5-3A29-42BE-994A-F23820B0C82E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>34E1EDF0-0727-479C-9553-4D58C01E5F95</string>
+				<string>E4F1DA5E-2E5F-4AEF-8725-5A6582C0BB9C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -44,11 +21,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>9CF706AF-1051-4696-9B13-9198C7B2BABD</key>
+		<key>2428415E-4AB6-4A2B-BC65-8CDB1D454883</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>094C3E53-630C-4759-8650-1E0E272C2FD1</string>
+				<string>096713FF-C0E4-4039-A1E3-48031F4ACEEA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -57,11 +34,37 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D546B959-2173-4140-B9B4-293B8FE30BDA</key>
+		<key>47AFAF41-A8DA-4813-84CA-2FF7D2823E20</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B14CE0C1-7C70-4F85-A6DF-6853DAE0234B</string>
+				<string>B95FCBA2-5B79-47D5-ACD2-DE9F68A2A6CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>53D65CA8-D26D-438E-A7A0-0E3571380725</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E4F1DA5E-2E5F-4AEF-8725-5A6582C0BB9C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B95FCBA2-5B79-47D5-ACD2-DE9F68A2A6CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E4F1DA5E-2E5F-4AEF-8725-5A6582C0BB9C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -84,80 +87,36 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://codepen.io/</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>34E1EDF0-0727-479C-9553-4D58C01E5F95</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>keyword</key>
-				<string>cp</string>
+				<string>cps</string>
 				<key>subtext</key>
-				<string>goto website</string>
+				<string>Search CodePen with keywords</string>
 				<key>text</key>
-				<string>CodePen</string>
+				<string>Search CodePen</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>7C321AC5-3A29-42BE-994A-F23820B0C82E</string>
+			<string>47AFAF41-A8DA-4813-84CA-2FF7D2823E20</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://codepen.io/pen/</string>
-				<key>utf8</key>
-				<true/>
+				<key>argument</key>
+				<string>https://codepen.io/search?q={query}&amp;limit=all&amp;order=popularity&amp;depth=everything&amp;show_forks=false</string>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>E7D86DB7-75AF-43B5-A7EA-2CC44B9DD724</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>cpn</string>
-				<key>subtext</key>
-				<string>in new tab in current browser window</string>
-				<key>text</key>
-				<string>Make a new CodePen</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>1D519241-DC16-4D0D-9DF6-74A710125184</string>
+			<string>B95FCBA2-5B79-47D5-ACD2-DE9F68A2A6CE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -169,25 +128,16 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>tell application "Google Chrome"
-    tell (make new window)
-        set URL of active tab to "https://codepen.io/pen/"
-    end tell
-    activate
-end tell
+				<string>on run argv
 
-# if using Safari, swap the above with the following 
+set theQuery to item 1 of argv
 
-# tell application "Safari"# 	make new document at end of documents with properties {URL:"http://codepen.io/pen/"}#	activate# end tell
 
-# or for Firefox the best I can do for a new window with url is the following
-# which opens the new window and then a new tab.
-
-# tell application "Firefox"# 	activate# 	tell application "System Events" to keystroke "n" using command down# 	open location "http://codepen.io/pen/"# end tell# Alternativly for Firefox you can use system events to "type" the url
-# Though it seems too slow to be useful, I would rather have the spare tab
-# from using the above Firefox solution.  # tell application "Firefox"#	activate#	tell application "System Events"#		keystroke "n" using command down#		delay 1#		keystroke "codepen.io/pen/"#		delay 1#		keystroke return#	end tell# end tell</string>
+----------------------------------------------------# https://forum.keyboardmaestro.com/t/how-to-open-chrome-mail-without-to-restart-the-program/1252/18
+# Auth: Christopher Stone &lt;scriptmeister@thestoneforge.com&gt;# dCre: 2015/05/14 12:30# dMod: 2015/05/14 13:21# Appl: Google Chrome, System Events# Task: Bring Chrome Tab with Gmail to front if it exists - otherwise open Gmail in new window.# Libs: None# Osax: None# Tags: @Applescript, @Script, @Google_Chrome, @System_Events----------------------------------------------------set _win to falsetell application "Google Chrome"	set {idList, urlList} to {id, URL} of every tab of every windowend tellset AppleScript's text item delimiters to returnif (urlList as text) contains theQuery = true then	set theWin to 1	repeat with i in urlList		set theTab to 1		repeat with n in i			if n starts with theQuery then				set {_win, _tab} to {theWin, theTab}			end if			set theTab to theTab + 1		end repeat		set theWin to theWin + 1	end repeatend ifif _win ≠ false then	tell application "System Events"		if quit delay ≠ 0 then set quit delay to 0		tell process "Google Chrome"			perform action "AXRaise" of window _win		end tell	end tell	tell application "Google Chrome"		tell front window to set active tab index to _tab	end tellelse	tell application "Google Chrome"		set newWin to make new window		tell newWin to set URL of active tab to theQuery	end tellend if----------------------------------------------------
+end run</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -196,7 +146,7 @@ end tell
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>D67FBEFB-34AF-4EA6-BE18-A60CF83F796A</string>
+			<string>E4F1DA5E-2E5F-4AEF-8725-5A6582C0BB9C</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -204,152 +154,133 @@ end tell
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>keyword</key>
-				<string>cpp</string>
+				<string>cpsf</string>
+				<key>subtext</key>
+				<string>Search CodePen with keywords</string>
+				<key>text</key>
+				<string>Search CodePen (include forks)</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2428415E-4AB6-4A2B-BC65-8CDB1D454883</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>https://codepen.io/search?q={query}&amp;limit=all&amp;order=popularity&amp;depth=everything&amp;show_forks=true</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>096713FF-C0E4-4039-A1E3-48031F4ACEEA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"64285c1312ec4f6fd825016889a2692bde092c82.png","title":"Home","arg":"https:\/\/codepen.io","subtitle":"CodePen Homepage"},{"imagefile":"349a305abebe0abe5d7947719ff42674e9c6bc95.png","title":"Dashboard","arg":"https:\/\/codepen.io\/dashboard\/","subtitle":"CodePen Dashboard"},{"imagefile":"d35e3c4d5a606ce0e4365f8304f869c233e68306.png","title":"Private Pens","arg":"https:\/\/codepen.io\/{var:cp_username}\/private","subtitle":"CodePen Private Pens"},{"imagefile":"cfc50d3e73c73b723bc8a4bcaadd89cbf375b521.png","title":"New Pen","arg":"https:\/\/codepen.io\/pen\/","subtitle":"Create a new CodePen"}]</string>
+				<key>keyword</key>
+				<string>cp</string>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
-				<key>text</key>
-				<string>Private CodePens</string>
+				<key>title</key>
+				<string>CodePen</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>9CF706AF-1051-4696-9B13-9198C7B2BABD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://codepen.io/digisam/private/</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>094C3E53-630C-4759-8650-1E0E272C2FD1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>cps</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search CodePens</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D546B959-2173-4140-B9B4-293B8FE30BDA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string>+</string>
-				<key>url</key>
-				<string>https://codepen.io/search?q={query}&amp;limit=all&amp;order=popularity&amp;depth=everything&amp;show_forks=false</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>B14CE0C1-7C70-4F85-A6DF-6853DAE0234B</string>
+			<string>53D65CA8-D26D-438E-A7A0-0E3571380725</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Super simple workflow shortcuts that mainly uses the built in functionality of Alfred with just a hint of AppleScript.
+
+Nothing special, but it is very handy, and I use it all day everyday.
+
+Change the cp_username variable to your own username to make sure the private pen link goes to the right place.
+
+https://github.com/digiltd/codepen-alfred-workflow</string>
 	<key>uidata</key>
 	<dict>
-		<key>094C3E53-630C-4759-8650-1E0E272C2FD1</key>
+		<key>096713FF-C0E4-4039-A1E3-48031F4ACEEA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<real>360</real>
+			<integer>510</integer>
 		</dict>
-		<key>1D519241-DC16-4D0D-9DF6-74A710125184</key>
+		<key>2428415E-4AB6-4A2B-BC65-8CDB1D454883</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>290</integer>
 			<key>ypos</key>
-			<real>180</real>
+			<integer>480</integer>
 		</dict>
-		<key>34E1EDF0-0727-479C-9553-4D58C01E5F95</key>
+		<key>47AFAF41-A8DA-4813-84CA-2FF7D2823E20</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>290</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>350</integer>
 		</dict>
-		<key>7C321AC5-3A29-42BE-994A-F23820B0C82E</key>
+		<key>53D65CA8-D26D-438E-A7A0-0E3571380725</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>290</integer>
 			<key>ypos</key>
-			<real>60</real>
+			<integer>610</integer>
 		</dict>
-		<key>9CF706AF-1051-4696-9B13-9198C7B2BABD</key>
+		<key>B95FCBA2-5B79-47D5-ACD2-DE9F68A2A6CE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>490</integer>
 			<key>ypos</key>
-			<real>300</real>
+			<integer>380</integer>
 		</dict>
-		<key>B14CE0C1-7C70-4F85-A6DF-6853DAE0234B</key>
+		<key>E4F1DA5E-2E5F-4AEF-8725-5A6582C0BB9C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>740</integer>
 			<key>ypos</key>
-			<real>470</real>
-		</dict>
-		<key>D546B959-2173-4140-B9B4-293B8FE30BDA</key>
-		<dict>
-			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
-			<real>420</real>
-		</dict>
-		<key>D67FBEFB-34AF-4EA6-BE18-A60CF83F796A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<real>240</real>
-		</dict>
-		<key>E7D86DB7-75AF-43B5-A7EA-2CC44B9DD724</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<real>120</real>
+			<integer>480</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>cp_username</key>
+		<string>digisam</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>cp_username</string>
+	</array>
+	<key>version</key>
+	<string>2.0.0</string>
 	<key>webaddress</key>
-	<string>http://digi.ltd.uk</string>
+	<string>https://digi.ltd.uk</string>
 </dict>
 </plist>
