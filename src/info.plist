@@ -60,6 +60,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A020128E-CB1F-4A78-9D80-AC90243E718B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCA165AC-1389-4EED-9179-7192551BDFE9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B95FCBA2-5B79-47D5-ACD2-DE9F68A2A6CE</key>
 		<array>
 			<dict>
@@ -196,7 +209,7 @@ end run</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"imagefile":"64285c1312ec4f6fd825016889a2692bde092c82.png","title":"Home","arg":"https:\/\/codepen.io","subtitle":"CodePen Homepage"},{"imagefile":"349a305abebe0abe5d7947719ff42674e9c6bc95.png","title":"Dashboard","arg":"https:\/\/codepen.io\/dashboard\/","subtitle":"CodePen Dashboard"},{"imagefile":"d35e3c4d5a606ce0e4365f8304f869c233e68306.png","title":"Private Pens","arg":"https:\/\/codepen.io\/{var:cp_username}\/private","subtitle":"CodePen Private Pens"},{"imagefile":"cfc50d3e73c73b723bc8a4bcaadd89cbf375b521.png","title":"New Pen","arg":"https:\/\/codepen.io\/pen\/","subtitle":"Create a new CodePen"}]</string>
+				<string>[{"imagefile":"64285c1312ec4f6fd825016889a2692bde092c82.png","title":"Home","arg":"https:\/\/codepen.io","subtitle":"CodePen Homepage"},{"imagefile":"349a305abebe0abe5d7947719ff42674e9c6bc95.png","title":"Dashboard","arg":"https:\/\/codepen.io\/dashboard\/","subtitle":"CodePen Dashboard"},{"imagefile":"d35e3c4d5a606ce0e4365f8304f869c233e68306.png","title":"Private Pens","arg":"https:\/\/codepen.io\/{var:cp_username}\/private","subtitle":"CodePen Private Pens"}]</string>
 				<key>keyword</key>
 				<string>cp</string>
 				<key>runningsubtext</key>
@@ -212,6 +225,46 @@ end run</string>
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
 			<string>53D65CA8-D26D-438E-A7A0-0E3571380725</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://codepen.io/pen/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CCA165AC-1389-4EED-9179-7192551BDFE9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>cpn</string>
+				<key>subtext</key>
+				<string>Open a new CodePen</string>
+				<key>text</key>
+				<string>New Pen</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A020128E-CB1F-4A78-9D80-AC90243E718B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -254,12 +307,26 @@ https://github.com/digiltd/codepen-alfred-workflow</string>
 			<key>ypos</key>
 			<integer>610</integer>
 		</dict>
+		<key>A020128E-CB1F-4A78-9D80-AC90243E718B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>750</integer>
+		</dict>
 		<key>B95FCBA2-5B79-47D5-ACD2-DE9F68A2A6CE</key>
 		<dict>
 			<key>xpos</key>
 			<integer>490</integer>
 			<key>ypos</key>
 			<integer>380</integer>
+		</dict>
+		<key>CCA165AC-1389-4EED-9179-7192551BDFE9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>740</integer>
+			<key>ypos</key>
+			<integer>620</integer>
 		</dict>
 		<key>E4F1DA5E-2E5F-4AEF-8725-5A6582C0BB9C</key>
 		<dict>
